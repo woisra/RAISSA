@@ -7,7 +7,7 @@
 
 /* Estilos Gerais */
 body {
-    font-family: Arial, sans-serif;
+    font-family:  Merriweather;
     line-height: 1.6;
     background-color: #fdcae1;
 }
@@ -50,7 +50,7 @@ header {
 }
 
 .barraDePesquisa button {
-    padding: 15px 15px;
+    padding: 10px 15px;
     background-color: #333;
     color: #FDF5E6;
     border: none;
@@ -60,7 +60,7 @@ header {
 
 .fraseDeImpacto {
     background-color: #FDF5E6;
-    padding: 10px;
+    padding: 15px;
 }
 
 nav ul {

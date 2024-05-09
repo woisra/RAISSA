@@ -18,8 +18,8 @@ header {
 }
 .logo-container {
     position: fixed;
-    top: 50;
-    left: 100%;
+    top: 25;
+    left: 50%;
     transform: translateX(-50%);
 }
 
@@ -55,7 +55,7 @@ header {
 
 .fraseDeImpacto {
     background-color: #FDF5E6;
-    padding: 25px;
+    padding: 50px;
 }
 
 nav ul {

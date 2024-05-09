@@ -43,8 +43,8 @@ header {
 }
 
 .barraDePesquisa input[type="text"] {
-    padding: 8px;
-    width: 250px;
+    padding: 15px;
+    width: 350px;
     border: none;
     border-radius: 5px;
 }
@@ -59,7 +59,7 @@ header {
 }
 
 .fraseDeImpacto {
-    background-color: grey;
+    background-color: #FDF5E6;
     padding: 10px;
 }
 

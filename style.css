@@ -115,3 +115,16 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+
+/* Centralizar os elementos */
+.centralizar {
+    text-align: center;
+}
+
+/* Aplicar a classe aos elementos desejados */
+.criar-conta,
+.carrinho,
+.entrar {
+    display: inline-block;
+    margin: 0 auto; /* Isso garante que os elementos fiquem centralizados */
+}

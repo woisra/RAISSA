@@ -50,9 +50,9 @@ header {
 }
 
 .barraDePesquisa button {
-    padding: 8px 15px;
+    padding: 15px 15px;
     background-color: #333;
-    color: #fff;
+    color: #FDF5E6;
     border: none;
     border-radius: 5px;
     cursor: pointer;

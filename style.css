@@ -8,7 +8,7 @@
 /* Estilos Gerais */
 body {
     font-family:  Merriweather;
-    line-height: 1.9;
+    line-height: 1.6;
     background-color: #fdcae1;
 }
 
@@ -28,12 +28,7 @@ header {
     border-radius: 100%;
     border: solid 2px #f9aa33;
 }
-.logo-container {
-    position: absolute;
-    top: 70%;
-    left: 70%;
-    transform: translate(-70%, -70%);
-}
+
 
 
 .barraDePesquisa {

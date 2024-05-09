@@ -12,76 +12,36 @@ body {
     background-color: #fdcae1;
 }
 
-}
-
 header {
     background-color: #f0f0f0;
-    padding: 20px 0;
+    padding: 20px;
 }
 
 .logo {
     width: 100px;
     border-radius: 50%;
     border: solid 2px #f9aa33;
-    margin-left: 30px; /* Adicionado para afastar a logo do lado esquerdo */
-}
-
-.header-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .barraDePesquisa {
-    background-color: fcfcda;
+    background-color: #fcfcda;
     padding: 10px;
-    margin-right: 50px; /* Adicionado para afastar a barra de pesquisa do lado direito */
+    margin-right: 30px;
 }
 
 .barraDePesquisa input[type="text"] {
-    padding: 5px;
-    width: 200px;
+    padding: 8px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
 }
 
 .barraDePesquisa button {
-    padding: 5px 10px;
+    padding: 8px 15px;
     background-color: #333;
-    color: #<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro de Cliente</title>
-</head>
-<body>
-    <h1>Cadastro de Cliente</h1>
-    <form id="cadastroForm">
-        <div>
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
-        </div>
-        <div>
-            <label for="sobrenome">Sobrenome:</label>
-            <input type="text" id="sobrenome" name="sobrenome" required>
-        </div>
-        <div>
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required>
-        </div>
-        <div>
-            <label for="senha">Senha:</label>
-            <input type="password" id="senha" name="senha" required>
-        </div>
-        <div>
-            <label for="confirmacaoSenha">Confirmação de Senha:</label>
-            <input type="password" id="confirmacaoSenha" name="confirmacaoSenha" required>
-        </div>
-        <button type="submit">Cadastrar</button>
-    </form>
-</body>
-</html>
-;
+    color: #fff;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
 }
 
@@ -114,8 +74,8 @@ a:hover {
 }
 
 .promocoes-carrosel {
-    overflow: hidden; /* Oculta as promoções que excedem o contêiner */
-    position: relative; /* Adicionado para posicionamento dos botões de navegação */
+    overflow: hidden;
+    position: relative;
 }
 
 .promo-item {
@@ -123,8 +83,8 @@ a:hover {
 }
 
 .promo-item img {
-    max-width: 100%; /* Alterado para ocupar a largura máxima do contêiner */
-    height: auto; /* Adicionado para manter a proporção da imagem */
+    max-width: 100%;
+    height: auto;
 }
 
 .navigation-buttons {
@@ -135,7 +95,7 @@ a:hover {
 }
 
 .navigation-buttons button {
-    background-color: rgba(0, 0, 0, 0.5); /* Alterado para um fundo mais transparente */
+    background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
     border: none;
     padding: 10px 15px;

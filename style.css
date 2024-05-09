@@ -20,10 +20,10 @@ header {
 }
 
 .logo {
-    width: 70px;
+    width: 100px;
     border-radius: 50%;
     border: solid 2px #f9aa33;
-    margin-left: 20px; /* Adicionado para afastar a logo do lado esquerdo */
+    margin-left: 30px; /* Adicionado para afastar a logo do lado esquerdo */
 }
 
 .header-content {

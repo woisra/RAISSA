@@ -9,11 +9,11 @@
 body {
     font-family:  Merriweather;
     line-height: 1.6;
-    background-color: #fdcae1;
+    background-color: #fcfcda;
 }
 
 header {
-    background-color: #f0f0f0;
+    background-color: #fcfcda;
     padding: 20px;
 }
 .logo-container {
@@ -47,7 +47,7 @@ header {
 .barraDePesquisa button {
     padding: 10px 15px;
     background-color: #333;
-    color: #FDF5E6;
+    color: #fcfcda;
     border: none;
     border-radius: 5px;
     cursor: pointer;

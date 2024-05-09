@@ -16,6 +16,12 @@ header {
     background-color: #f0f0f0;
     padding: 20px;
 }
+.logo-container {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 .logo {
     width: 150px;
